@@ -11,7 +11,7 @@
     "dev": "NODE_ENV=development nf run nodemon server",
     "start": "NODE_ENV=production nf start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "mkdir logs dist && touch logs/access.log logs/csp-reports.log dist/index.html"
+    "postinstall": "mkdir logs dist && touch logs/access.log logs/csp-reports.log dist/index.html .env"
   },
   "keywords": [
     "nodejs",
