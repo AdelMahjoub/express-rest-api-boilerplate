@@ -1,0 +1,43 @@
+{
+  "name": "express-rest-api-boilerplate",
+  "version": "1.0.0",
+  "description": "a restful api to be consumed by single page applications",
+  "main": "server.js",
+  "engines": {
+    "node": "6.11.0",
+    "npm": "5.0.4"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development nf run nodemon server",
+    "start": "NODE_ENV=production nf start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mkdir logs dist && touch logs/access.log logs/csp-reports.log dist/index.html"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "rest",
+    "api",
+    "single page application",
+    "mongoose",
+    "jwt"
+  ],
+  "author": "AdelMahjoub",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "express-jwt": "^5.3.0",
+    "foreman": "^2.0.0",
+    "forever": "^0.15.3",
+    "helmet": "^3.6.1",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.8.2",
+    "shortid": "^2.2.8",
+    "validator": "^7.2.0"
+  }
+}
