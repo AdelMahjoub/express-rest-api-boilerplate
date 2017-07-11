@@ -1,6 +1,6 @@
 {
   "name": "express-rest-api-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a restful api to be consumed by single page applications",
   "main": "server.js",
   "engines": {
