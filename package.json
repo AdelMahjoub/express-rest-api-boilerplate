@@ -24,7 +24,9 @@
     "jwt"
   ],
   "repository": {
-    "git": "https://github.com/AdelMahjoub/express-rest-api-boilerplate"
+    "git": {
+      "url": "https://github.com/AdelMahjoub/express-rest-api-boilerplate"
+    }
   },
   "author": "AdelMahjoub",
   "license": "MIT",
