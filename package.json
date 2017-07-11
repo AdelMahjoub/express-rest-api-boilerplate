@@ -23,11 +23,11 @@
     "mongoose",
     "jwt"
   ],
-  "repository": {
-    "git": {
+  "repository": 
+    {
+      "type": "git",
       "url": "https://github.com/AdelMahjoub/express-rest-api-boilerplate"
-    }
-  },
+    },
   "author": "AdelMahjoub",
   "license": "MIT",
   "dependencies": {
